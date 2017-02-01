@@ -1,0 +1,21 @@
+{
+    "name": "FBBot",
+    "version": "0.1.2",
+    "description": "A Facebook bot for Telegram",
+    "main": "FBBot",
+    "author": "Dogtor <@dogtor>",
+    "license": "MIT",
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/dogtor/FBBot.git"
+    },
+    "bugs": {
+	"url": "https://github.com/dogtor/FBBot/issues"
+    },
+    "homepage": "https://github.com/dogtor/FBBot",
+    "dependencies": {
+	"node-telegram-bot": "^0.1.5",
+	"facebook-chat-api": "^1.0.3"
+    },
+    "scripts": {}
+}
