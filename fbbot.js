@@ -14,7 +14,7 @@ function getUsage() {
 	+ "Available commands:\n"
 	+ "/threadlist - List the latest conversations you had with your friends.\n"
 	+ "/cancel - Cancel the current command.\n"
-        + "\n\nMore Informations: https://github.com/Liryna/FacebookBot";
+        + "\n\nMore Informations: https://github.com/dogtor/FBBot";
 }
 
 var chat = new Array();
@@ -37,7 +37,7 @@ login({email: config.email, password: config.password}, function(err, api) {
 	if (message.from.username != owner.username)
 	    bot.sendMessage({chat_id: message.chat.id,
 			      text: "You are not my owner! Go away ! \n"
-			     + "- https://github.com/Liryna/FacebookBot"});
+			     + "- https://github.com/dogtor/FBBot"});
 	else
 	{
 	    if (owner.chat_id == undefined)
